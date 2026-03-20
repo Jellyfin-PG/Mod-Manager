@@ -9,7 +9,7 @@ namespace Jellyfin.Plugin.ModManager.Configuration
         /// URL pointing to the mods repository JSON file.
         /// This is fetched when the user clicks Load Mods in the config page.
         /// </summary>
-        public string ModsUrl { get; set; } = "https://gist.githubusercontent.com/grimmdev/a450549f0bc94c3a152ebc60f1ecc3e3/raw/cee67b0cfede4b57aa81e46dfcf04d6f9a0fe71b/mods.json";
+        public string ModsUrl { get; set; } = "https://raw.githubusercontent.com/Jellyfin-PG/Mod-Manager-Mods/refs/heads/main/mods.json";
 
         /// <summary>
         /// IDs of mods the user has enabled. Multiple mods can be active simultaneously.
