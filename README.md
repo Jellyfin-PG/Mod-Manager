@@ -1,3 +1,5 @@
+# Still works for any version of jellyfin 10.11.x, and also for the most recent versions of file transformation, however all work has been moved to [Jellyframe](https://github.com/Jellyfin-PG/JellyFrame)
+
 # Mod Manager
 
 A Jellyfin plugin that lets you browse and enable community JS and CSS mods from the server dashboard. Mods are injected at request time — your Jellyfin install is never modified on disk. Multiple mods can be active simultaneously.
